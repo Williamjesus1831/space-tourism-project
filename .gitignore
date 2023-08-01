@@ -33,6 +33,7 @@ vite.config.ts
 .eslintrc.cjs
 tsconfig.node.json
 public
-
-
+.gitignore
+problems.txt
+vite-env.d.ts
 
