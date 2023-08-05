@@ -28,7 +28,11 @@ const router = createBrowserRouter([
     path: "technology",
     element: <Technology />
   },
-]);
+],
+  {
+    basename: "/space-tourism-project"
+  }
+);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
