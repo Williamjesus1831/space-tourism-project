@@ -34,7 +34,7 @@ const Destination = () => {
       <header>
         <NavBar actualPage={'destination'} />
       </header>
-      <section className={`flex flex-col px-4 mt-[50px] w-full h-full gap-16 lg:mt-[100px]}`}>
+      <section className={`flex flex-col px-4 mt-[50px] w-full h-full gap-16 lg:mt-[100px]`}>
         <div className='flex w-full font-Barlow uppercase'>
           <span className='text-graycolor font-bold text-left'>01</span>
           <h2 className='hidden ml-5 md:block tracking-[3.38px]'>Pick your destination</h2>
