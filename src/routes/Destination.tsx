@@ -1,18 +1,19 @@
 import { useState } from "react"
 import NavBar from '../components/common/NavBar'
 
-import { destinationData } from "../destinationMockData.json"
+import { destinationData } from "../mockData/destinationMockData.json"
 
 const Destination = () => {
-  interface destinationInfo {
+  interface destinationInterface {
     destination: string;
     image: string;
     description: string;
     distance: string;
     travelTime: string;
   }
+  
   const [isDestinationChanging, setIsDestinationChanging] = useState(false);
-  const [currentDestination, setCurrentDestination] = useState<destinationInfo>(destinationData[0])
+  const [currentDestination, setCurrentDestination] = useState<destinationInterface>(destinationData[0])
 
   function handleDestination(destination: string): void {
     if (destination === currentDestination.destination) {
